@@ -1,0 +1,100 @@
+/* css that is reusable */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+.contentWrapper{
+    padding: 20px 250px 20px 250px;
+}
+
+
+/* header css */
+.headerWrapper{
+    background-color: rgb(31, 41, 55);
+
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;    
+    color: white;
+}
+.body{
+   padding: 0px;
+}
+.logoTitle{
+    
+}
+.navList{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: rgb(206, 205, 205);
+}
+
+.headerSubcontent{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 100px 0px 100px 0px;
+    align-items: stretch;
+}
+.hsDescription{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+}
+.hsDescription h1{
+    font-size: 3rem;
+}
+.hsDescription p{
+    color: rgb(206, 205, 205);
+}
+.hsImage{
+    width: 500px;
+    height: auto;
+    background-color:rgb(77, 88, 104) ;
+}
+.hsButton{
+    background-color: rgb(34, 226, 34);
+    border: 0px;
+    font: inherit;
+    font-size: 1.5rem;
+    padding: 5px 50px 5px 50px;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+
+/* content 1 css */
+.content1{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 20px 0px 20px 0px;
+}
+.content1 h1{
+    padding: 40px 0px 40px 0px;
+}
+.c1List{
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.c1List li{
+    width: 200px;
+}
+.c1List li img{
+    border: 4px rgb(59, 130, 246) solid;
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+}
+.c1List li p{
+    font-size: 1.2rem;
+}
